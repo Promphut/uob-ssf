@@ -1,12 +1,155 @@
-.tax-benefit-main-panel .tax-benefit-main-panel-inner .tax-benefit-menu-panel .tax-benefit-menu-panel-inner .tax-benefit-menu-bar .tax-benefit-menu-box{
+.tax-benefit-main-panel
+  .tax-benefit-main-panel-inner
+  .tax-benefit-menu-panel
+  .tax-benefit-menu-panel-inner
+  .tax-benefit-menu-bar
+  .tax-benefit-menu-box {
   margin: 0 10%;
 }
-.tax-benefit-main-panel .tax-benefit-main-panel-inner .tax-benefit-menu-panel .tax-benefit-menu-panel-inner .tax-benefit-menu-bar .tax-benefit-menu-box.ltf{
+.tax-benefit-main-panel
+  .tax-benefit-main-panel-inner
+  .tax-benefit-menu-panel
+  .tax-benefit-menu-panel-inner
+  .tax-benefit-menu-bar
+  .tax-benefit-menu-box.ltf {
   margin: 0 10%;
 }
-.tax-benefit-main-panel .tax-benefit-main-panel-inner .tax-benefit-menu-panel .tax-benefit-menu-panel-inner .tax-benefit-menu-bar .tax-benefit-menu-box.rmf{
+.tax-benefit-main-panel
+  .tax-benefit-main-panel-inner
+  .tax-benefit-menu-panel
+  .tax-benefit-menu-panel-inner
+  .tax-benefit-menu-bar
+  .tax-benefit-menu-box.rmf {
   margin: 0 10%;
 }
-.color2f71c0{
-  color:#2f71c0;
+.tax-benefit-main-panel
+  .tax-benefit-main-panel-inner
+  .tax-benefit-table-privilege
+  .tax-benefit-table-privilege-inner
+  .panel-table-privilege
+  .panel-table-privilege-inner
+  .table-privilege
+  .text-body {
+  text-align: center;
+}
+.tax-benefit-main-panel
+  .tax-benefit-main-panel-inner
+  .tax-benefit-table-privilege
+  .tax-benefit-table-privilege-inner
+  .panel-table-privilege
+  .panel-table-privilege-inner
+  .table-privilege
+  .text-body.num {
+  padding: 12px 0;
+}
+.tax-benefit-main-panel
+  .tax-benefit-main-panel-inner
+  .tax-benefit-table-privilege
+  .tax-benefit-table-privilege-inner
+  .panel-table-privilege
+  .panel-table-privilege-inner
+  .table-privilege
+  .text-head {
+  padding: 15px 0;
+}
+.tax-benefit-main-panel
+  .tax-benefit-main-panel-inner
+  .tax-benefit-table-privilege
+  .tax-benefit-table-privilege-inner
+  .panel-table-privilege
+  .panel-table-privilege-inner
+  .table-privilege
+  .text-body {
+  padding: 12px 0;
+}
+.color2f71c0 {
+  color: #2f71c0;
+}
+.text-body {
+}
+.tax-hr {
+  height: 2px;
+  background-color: #4b82c4;
+  outline: none;
+  border: none;
+}
+.tax-benefit-sub-title {
+  font-size: 36px;
+}
+.tax-benefit-condition-box {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid #9c9b9b;
+  font-size: 28px;
+}
+.tax-benefit-condition-text {
+  font-size: 28px;
+}
+.gray {
+  color: #4a4a4a;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.margin20 {
+  margin-top: 20px;
+}
+.size30 {
+  font-size: 30px;
+}
+
+.tax-faq-inner{
+  width: 90%;
+    max-width: 940px;
+    margin: 20px auto 80px;
+    text-align: center;
+}
+.tax-faq-title{
+  font-size: 48px;
+    line-height: 45px;
+    padding-top: 45px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.tax-faq-collapse{
+  margin-bottom: 3px;
+}
+.tax-faq-collapse-outer{
+  padding: 15px 20px;
+  background-color: #4A4A4A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.tax-faq-collapse-outer .tax-faq-text{
+  color: white;
+  text-align: left;
+  font-size: 26px;
+}
+.tax-faq-collapse-inner{
+  padding: 15px 20px;
+  font-size: 26px;
+  color: #4A4A4A;
+  margin: 0;
+  text-align: left;
+  display: none;
+}
+.tax-faq-collapse.active .tax-faq-collapse-inner{
+  display: block;
+}
+.tax-faq-collapse-icon{
+  width: 22px;
+  height: 22px;
+  background-image: url(/img/arrow-down-sign-to-navigate.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+}
+.tax-faq-collapse.active .tax-faq-collapse-icon{
+  transform: rotate(0deg);
 }
