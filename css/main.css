@@ -62,6 +62,29 @@
   .text-body {
   padding: 12px 0;
 }
+.tax-benefit-main-panel .tax-benefit-main-panel-inner .tax-benefit-menu-panel .tax-benefit-menu-panel-inner .tax-benefit-menu-bar .tax-benefit-menu-box .tax-benefit-menu-icon.ssf{
+  width: 40px;
+  height: 31px;
+  margin-top: 2px;
+  background-image: url(../img/icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tax-benefit-main-panel .tax-benefit-main-panel-inner .tax-benefit-panel-meaning.ssf{
+  background-image: url(../img/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tax-benefit-main-panel .tax-benefit-main-panel-inner .tax-benefit-panel-condition.ssf{
+  background-image: url(../img/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tax-benefit-main-panel .tax-benefit-main-panel-inner .tax-benefit-table-privilege.ssf{
+  background-image: url(../img/5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .color2f71c0 {
   color: #2f71c0;
 }
